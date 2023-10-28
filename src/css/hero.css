@@ -2,10 +2,9 @@
 .section-hero {
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #111111;
 }
 
-.container {
+.section-hero .container {
     position: relative;
 }
 
@@ -73,7 +72,7 @@
     padding-bottom: 50px;
 }
 
-.container {
+.section-hero .container {
     max-width: 768px;
 }
 
@@ -91,7 +90,7 @@
     gap: 16px;
     font-size: 16px;
     position: absolute;
-    right: 32px;
+    right: 20px;
     top: -26px;
     text-align: center;
     width: 115px;
@@ -114,15 +113,15 @@
 }
 
 .section-hero .container {
-    background-image: url(../images/hero_ukraine_tabl@1x.png);
+    background-image: url(../img/hero/hero_ukraine_tabl@1x.png);
     background-repeat: no-repeat;
-    background-position: bottom -97px right 32px;
+    background-position: bottom -97px right 20px;
     background-size: 139px 197px;
 }
 
 @media (min-resolution: 192dpi) {
     .section-hero .container {
-        background-image: url(../images/hero_ukraine_tabl@2x.png);
+        background-image: url(../img/hero/hero_ukraine_tabl@2x.png);
     }    
         
 }
@@ -134,11 +133,11 @@
 @media screen and (min-width: 1280px) {
     /* Hero title */
 .section-hero {
-    padding-top: 50px;
+    padding-top: 75px;
     padding-bottom: 75px;
 }
 
-.container {
+.section-hero .container {
     max-width: 1280px;
 }
 
@@ -153,19 +152,19 @@
 
 /* Hand made */
 .hero-hand-made {
-    right: 100px;
+    right: 20px;
     top: 14px;
 }
 
 .section-hero .container {
     display: flex;
-    background-image: url(../images/hero_ukraine_desk@1x.png);
-    background-position: bottom -99px right 100px;
+    background-image: url(../img/hero/hero_ukraine_desk@1x.png);
+    background-position: bottom -99px right 20px;
 }
 
 @media (min-resolution: 192dpi) {
     .section-hero .container {
-        background-image: url(../images/hero_ukraine_desk@2x.png);
+        background-image: url(../img/hero/hero_ukraine_desk@2x.png);
     }    
         
 }
