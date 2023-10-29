@@ -1,0 +1,172 @@
+/* Hero title */
+.section-hero {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section-hero .container {
+    position: relative;
+}
+
+.hero-title {
+    width: 100%;
+    color: #FCF9F9;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 1.23;
+    letter-spacing: -0.03em;
+    margin-bottom: 20px;
+}
+
+.hero-title-color {
+    color:#ECD979;
+}
+
+.hero-hand-made {
+    display: none;
+}
+
+/* Hero button */
+.order-btn {
+    display: flex;
+    width: 155px;
+    height: 49px;
+    padding: 14px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    background-color: transparent;
+    color:#FCF9F9;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    margin: 0px 0px 40px 70px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-btn-icon {
+    fill: #ECD979;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-btn:hover,
+.order-btn:focus {
+    border: 1px solid #ECD979;
+}
+
+.order-btn:hover .order-btn-icon,
+.order-btn:focus .order-btn-icon {
+    transform: rotate(-30deg);
+}
+
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+
+    /* Hero title */
+.section-hero {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.section-hero .container {
+    max-width: 768px;
+}
+
+.hero-title {
+    width: 549px;
+    font-size: 54px;
+    line-height: 1.18;
+    margin-bottom: 40px;
+}
+
+/* Hand made */
+.hero-hand-made {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 16px;
+    position: absolute;
+    right: 20px;
+    top: -26px;
+    text-align: center;
+    width: 115px;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    align-items: center;
+}
+
+.hero-hand-icon {
+    fill: #ECD979;
+}
+
+/* Hero button */
+.order-btn {
+    min-width: 168px;
+    height: 50px;
+    font-size: 16px;
+    padding: 14px 39px;
+    margin: 0px 0px 40px 141px;
+}
+
+.section-hero .container {
+    background-image: url(../img/hero/hero_ukraine_tabl@1x.png);
+    background-repeat: no-repeat;
+    background-position: bottom -97px right 20px;
+    background-size: 139px 197px;
+}
+
+@media (min-resolution: 192dpi) {
+    .section-hero .container {
+        background-image: url(../img/hero/hero_ukraine_tabl@2x.png);
+    }    
+        
+}
+
+}
+
+
+/* Desk */
+@media screen and (min-width: 1280px) {
+    /* Hero title */
+.section-hero {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.section-hero .container {
+    max-width: 1280px;
+}
+
+.hero-title-btn {
+    order: 2;
+}
+
+.hero-title {
+    width: 518px;
+    margin: 94px 0px 40px 40px;
+}
+
+/* Hand made */
+.hero-hand-made {
+    right: 20px;
+    top: 14px;
+}
+
+.section-hero .container {
+    display: flex;
+    background-image: url(../img/hero/hero_ukraine_desk@1x.png);
+    background-position: bottom -99px right 20px;
+}
+
+@media (min-resolution: 192dpi) {
+    .section-hero .container {
+        background-image: url(../img/hero/hero_ukraine_desk@2x.png);
+    }    
+        
+}
+
+}
