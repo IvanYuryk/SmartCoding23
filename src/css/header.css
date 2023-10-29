@@ -1,0 +1,273 @@
+/* Header */
+
+.header{
+padding-top: 20px;
+}
+    
+.header .container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 52px;
+}
+    
+.nav-menu{
+display: none;
+}
+    
+.address{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 12px;
+}
+    
+.address-link{
+display: none;
+}
+    
+.address-list{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 12px;
+}
+    
+.address-list-item{
+width: 44px;
+height: 44px;
+}
+    
+.address-list-link{
+width: 100%;
+height: 100%;
+border-radius: 15px;
+border: 1px solid rgba(252, 249, 249, 0.10);
+background-color: rgba(252, 249, 249, 0.10);
+display: flex;
+justify-content: center;
+align-items: center;
+transition-property: border-color, background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+    
+.address-list-link:hover,
+.address-list-link:focus{
+border-color: #ECD979;
+background-color:transparent;
+}
+    
+.menu-open-btn{
+width: 36px;
+height: 24px;
+background-color: transparent;
+padding: 0;
+cursor: pointer;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+    
+/* Mob_menu */
+    
+.mob-menu{
+position: fixed;
+top: 0;
+left: 50%;
+transform: translate(-50%, 0);
+z-index: 1;
+width: 274px;
+height: 100vh;
+background-color: #ECD979;
+background-image:url(../img/header/elements.png);
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: auto;
+padding: 20px;
+opacity: 0;
+visibility: hidden;
+pointer-events: auto;
+}
+    
+.is-open{
+opacity: 1;
+visibility: visible;
+pointer-events: auto;
+}
+    
+.mob-address{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 186px;
+}
+    
+.mob-address-link{
+width: 158px;
+height: 38px;
+border-radius: 15px;
+border: 1px solid rgba(28, 34, 37, 0.10);
+color: #1C2225;
+font-size: 12px;
+font-style: normal;
+line-height: 1.17;
+text-transform: uppercase;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+    
+.mob-btn{
+width: 36px;
+height: 36px;
+background-color: transparent;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+} 
+    
+.mob-list{
+margin-right: auto;
+}
+    
+.mob-item:not(:last-child){
+margin-bottom: 20px;
+}
+    
+.mob-item{
+text-align: right;   
+}
+     
+.mob-item-link{
+color: #1C2225;
+font-size: 14px;
+line-height: 1.29; 
+text-transform: uppercase;
+}
+     
+@media screen and (min-width: 768px){
+    
+.header .container {
+max-width: 768px;  
+}
+    
+.nav{
+margin-left: 12px;
+}
+    
+.address{  
+gap: 20px;
+margin-right: 12px;
+}
+    
+.menu-open-btn{
+width: 44px;
+height: 30px;
+}
+    
+/* Mob_menu */
+    
+.mob-address{
+margin-bottom: 223px;
+}
+    
+.mob-menu{
+width: 380px;
+height: 100vh;
+background-image:url(../img/header/elements_2.png);
+}
+    
+.mob-address-link{
+width: 193px;
+height: 48px;
+font-size: 14px;
+line-height: 1.43;
+}
+    
+.mob-btn{
+width: 44px;
+height: 44px;
+}
+    
+.icon-btn{
+width: 44px;
+height: 44px; 
+}
+    
+.mob-item:not(:last-child){
+margin-bottom: 25px;
+}
+}
+    
+@media screen and (min-width: 1280px){
+    
+.header .container {
+max-width: 1280px;  
+}
+    
+.nav{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 60px;
+margin-left: 80px;
+}
+    
+.nav-menu{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 25px;
+}
+    
+.nav-item-link_one, 
+.nav-item-link{
+color: #FCF9F9;
+font-size: 14px;
+line-height: 1.29; 
+text-transform: uppercase;
+}
+    
+.nav-item-link_one:hover,
+.nav-item-link_one:focus{
+color: #ECD979;
+}
+    
+.menu-open-btn{
+display: none;
+}
+    
+.address{
+margin-right: 80px;
+}
+    
+.address-link{
+width: 193px;
+height: 48px;
+border-radius: 15px;
+border: 1px solid rgba(252, 249, 249, 0.10);
+color: #FCF9F9;
+font-size: 14px;
+font-style: normal;
+line-height: 1.43;
+text-transform: uppercase;
+transition-property: border-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+    
+.address-link:hover,
+.address-link:focus{
+border-color: #ECD979;
+}
+    
+.mob-menu{
+display: none;
+}
+}
