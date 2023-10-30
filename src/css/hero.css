@@ -62,6 +62,10 @@
     transform: rotate(-30deg);
 }
 
+.picture-radius {
+    border-radius: 4px;
+    overflow: hidden;
+}
 
 /* Tablet */
 @media screen and (min-width: 768px) {
@@ -74,6 +78,8 @@
 
 .section-hero .container {
     max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .hero-title {
@@ -89,8 +95,9 @@
     flex-direction: column;
     gap: 16px;
     font-size: 16px;
+    color: rgba(252, 249, 249, 0.40);
     position: absolute;
-    right: 20px;
+    right: 32px;
     top: -26px;
     text-align: center;
     width: 115px;
@@ -115,7 +122,7 @@
 .section-hero .container {
     background-image: url(../img/hero/hero_ukraine_tabl@1x.png);
     background-repeat: no-repeat;
-    background-position: bottom -97px right 20px;
+    background-position: bottom -97px right 32px;
     background-size: 139px 197px;
 }
 
@@ -139,6 +146,8 @@
 
 .section-hero .container {
     max-width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .hero-title-btn {
@@ -152,14 +161,14 @@
 
 /* Hand made */
 .hero-hand-made {
-    right: 20px;
+    right: 100px;
     top: 14px;
 }
 
 .section-hero .container {
     display: flex;
     background-image: url(../img/hero/hero_ukraine_desk@1x.png);
-    background-position: bottom -99px right 20px;
+    background-position: bottom -99px right 100px;
 }
 
 @media (min-resolution: 192dpi) {
