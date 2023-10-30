@@ -1,13 +1,6 @@
 .testimonials {
   padding-top: 81px;
   padding-bottom: 80px;
-  background-color: #1c2225;
-}
-
-.testimonials-container {
-  max-width: 1280px;
-  margin: 0 auto;
-  width: 100%;
 }
 
 .testimonials-title {
@@ -29,9 +22,6 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   padding: 0 18px 18px 18px;
   margin-top: 24px;
-}
-
-.testimonials-content {
 }
 
 .empty-container {
@@ -76,15 +66,9 @@
   display: none;
 }
 
-@media screen and (min-width: 320px) {
-  .container {
-    max-width: 320px;
-  }
-}
-
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
+  .testimonials {
+    padding: 100px 32px;
   }
 
   .testimonials-list {
@@ -105,8 +89,8 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
+  .testimonials {
+    padding: 150px 100px;
   }
 
   .testimonials-list {
