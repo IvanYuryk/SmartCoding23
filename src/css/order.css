@@ -1,0 +1,310 @@
+/* Mobile 320px */
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .order-container {
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (min-width: 320px) {
+  .order-container-fon {
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    width: 375px;
+    height: 550px;
+    flex-shrink: 0;
+    background-image: url(../img/order/320Image1x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resoluton: 192dpi) {
+      .order-container-fon {
+        background-image: url(../img/order/320Image2x.png);
+      }
+    }
+  }
+}
+
+.section-order {
+}
+.order-container {
+  display: flex;
+  width: 375px;
+  padding: 0px 20px 1px 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.order-title {
+  width: 335px;
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.96px;
+}
+.order-title-span {
+  color: #ecd979;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+}
+.order-form {
+}
+.order-form-servise {
+}
+.order-input {
+}
+.modal-label {
+}
+.input-user {
+  padding-bottom: 20px;
+}
+.modal-input {
+  background: #1c2225;
+  display: flex;
+  width: 100%;
+  padding: 14px 16px;
+  align-items: flex-start;
+  gap: 8px;
+  display: flex;
+  padding: 14px 16px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+}
+
+.modal-input {
+}
+
+.modal-user-icon {
+}
+.modal-field {
+}
+.modal-field-textarea {
+}
+
+input::placeholder {
+  flex: 1 0 0;
+  color: rgba(252, 249, 249, 0.5);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+
+.modal-textarea {
+  background: #1c2225;
+  display: flex;
+  width: 100%;
+  padding: 14px 16px;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+}
+
+textarea::placeholder {
+  flex: 1 0 0;
+  color: rgba(252, 249, 249, 0.5);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+
+.order-button-btn {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.send-btn {
+  height: 49px;
+  padding: 14px 36px;
+  border-radius: 15px;
+  background: #1c2225;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+
+.send-btn:hover {
+  display: inline-flex;
+  height: 49px;
+  padding: 14px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #ecd979;
+}
+
+input[type='text'] {
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+input[type='email'] {
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+#user-comment {
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.order-container-image {
+  display: none;
+}
+
+/* Tablet 768px */
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .order-container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 768px) {
+  .order-ornament {
+    display: flex;
+    width: 545px;
+    height: 484px;
+    padding: 0px 0.731px 0.539px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-image: url(../img/order/768ornamentOrder1x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resoluton: 192dpi) {
+      .order-ornament {
+        background-image: url(../img/order/768ornamentOrder2x.png);
+      }
+
+      .order-container-fon {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 100vw;
+        height: 100vh;
+        background-image: url(../img/order/768ImageTop1x.png);
+
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resoluton: 192dpi) {
+          .order-container-fon {
+            background-image: url(../img/order/768ImageTop2x.png);
+          }
+        }
+      }
+    }
+  }
+
+  .order-form {
+  }
+
+  .order-container-image {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    width: 638px;
+    height: 521px;
+    border-radius: 4px;
+    margin-right: 32px;
+    margin-left: 98px;
+  }
+}
+
+/* Desktop 1280px */
+
+@media screen and (min-width: 1280px) {
+  .order-container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .order-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .order-ornament {
+    background-image: url(../img/order/1280ornamentOrder1x.png);
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resoluton: 192dpi) {
+      .order-ornament {
+        background-image: url(../img/order/1280ornamentOrder2x.png);
+      }
+
+      .order-container-fon {
+        padding-top: 150px;
+        padding-bottom: 150px;
+        width: 100vw;
+        height: 100hw;
+        background-image: url(../img/order/1280ImageTop1x.png);
+
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resoluton: 192dpi) {
+          .order-container-fon {
+            background-image: url(../img/order/1280ImageTop2x.png);
+          }
+        }
+
+        .order-container-image {
+          width: 524px;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+}
