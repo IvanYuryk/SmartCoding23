@@ -17,8 +17,8 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/SmartCoding23/assets/index-ce92f808.js"></script>
-    <link rel="stylesheet" href="/SmartCoding23/assets/index-e0384db3.css">
+    <script type="module" crossorigin src="/SmartCoding23/assets/index-8ce35510.js"></script>
+    <link rel="stylesheet" href="/SmartCoding23/assets/index-3a70bca5.css">
   </head>
   <body>
     <header class="header">
@@ -144,7 +144,64 @@
     </div>
 </section>
       
-      
+      <!-- Section Your Order -->
+
+<section class="section-order" id="customer_order">
+    <div class="container order-container">
+    <div class="order-container-fon">
+    </div>
+    <h2 class="order-title">
+        <span class="order-title-span">Your order</span> is our priority: Personalized approach and quality of service
+    </h2>
+    <div class="order-form">        
+        <form class="order-form-servise">
+            <div class="order-input">
+                <label for="user-name" class="modal-label"></label>
+                <div class="input-user">
+                    <input type="text" name="user-name" class="modal-input" placeholder="Enter your full name" 
+                    pattern="[A-z]{1,15}"
+                    required id="user-name" />                   
+                </div>
+            </div>
+            <div class="modal-field">
+                <label for="user-email" class="modal-label"></label>
+                <div class="input-user">
+                    <input type="email" name="user-email" class="modal-input" placeholder="Enter your email"
+                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                    required id="user-email" />                    
+                </div>                
+            </div>
+            <div class="modal-field modal-field-textarea">
+                <label for="user-comment" class="modal-label"></label>
+                <textarea name="user-comment" cols="30" rows="5" class="modal-textarea" placeholder="Comments"
+                required
+                    id="user-comment"></textarea>
+            </div>
+            <div class="order-button-btn">            
+            <button type="submit" class="send-btn">Send
+                <svg class="modal-user-icon" width="26" height="10">
+                    <use href="../public/pointer.svg#icon-pointer"></use>
+                </svg>
+            </button>
+            </div>
+        </form>
+    </div>
+    <div class="order-container-image">        
+    <picture>
+        <source srcset="../img/order/1280Rectangle1x.jpg 1x,
+        ../img/order/1280Rectangle1x.jpg 2x" 
+        media="(min-width: 1280px)" />
+        <source srcset="../img/order/768ImageBottom1x.jpg 1x,
+        ../img/order/768ImageBottom2x.jpg 2x" media="(min-width: 768px)" />
+        <source srcset="../img/order/320ImageBottom1x.jpg 1x,
+        ../img/order/320ImageBottom2x.jpg 2x" media="(min-width: 320px)" />
+        <img src="../img/order/768ImageBottom1x.jpg" alt="national costume" width="768" class="order-image" />
+    </picture>
+    </div>
+    <div class="order-ornament">
+    </div>
+</div>
+</section>
       <section id="testimonials" class="testimonials">
   <div class="container">
     <h2 class="testimonials-title section-title">Testimonials</h2>
