@@ -1,5 +1,4 @@
 .testimonials {
-  padding-top: 81px;
   padding-bottom: 80px;
 }
 
@@ -71,7 +70,9 @@
     max-width: 768px;
   }
   .testimonials {
-    padding: 100px 32px;
+    padding-bottom: 100px;
+    padding-right: 32px;
+    padding-left: 32px;
   }
 
   .testimonials-list {
@@ -97,7 +98,9 @@
   }
 
   .testimonials {
-    padding: 150px 100px;
+    padding-bottom: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .testimonials-list {
