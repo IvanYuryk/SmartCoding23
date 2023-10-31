@@ -2,6 +2,7 @@
 
 .header{
 padding-top: 20px;
+padding-bottom: 60px;
 }
     
 .header .container {
@@ -149,7 +150,11 @@ text-transform: uppercase;
 }
      
 @media screen and (min-width: 768px){
-    
+
+.header{
+padding-bottom: 80px;
+}
+
 .header .container {
 max-width: 768px;
 padding: 0 32px;  
@@ -200,7 +205,11 @@ margin-bottom: 25px;
 }
     
 @media screen and (min-width: 1280px){
-    
+
+.header{
+padding-bottom: 100px;
+}
+
 .header .container {
 max-width: 1280px;
 padding: 0 100px;  
