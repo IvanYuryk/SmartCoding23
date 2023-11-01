@@ -4,6 +4,7 @@
     <div class="container order-container">
     <div class="order-container-fon">
     </div>
+    <div class="order-container-left">
     <h2 class="order-title">
         <span class="order-title-span">Your order</span> is our priority: Personalized approach and quality of service
     </h2>
@@ -33,26 +34,25 @@
             </div>
             <div class="order-button-btn">            
             <button type="submit" class="send-btn">Send
-                <svg class="modal-user-icon" width="26" height="10">
-                    <use href="../public/pointer.svg#icon-pointer"></use>
-                </svg>
+            <svg class="order-btn-icon" width="27.5" height="18.5">
+                <use href="./img/icons.svg#icon-hero-button"></use>
+            </svg>
             </button>
             </div>
         </form>
     </div>
+    </div>
     <div class="order-container-image">        
-    <picture>
+    <picture class="order-picture">
         <source srcset="../img/order/1280Rectangle1x.jpg 1x,
-        ../img/order/1280Rectangle1x.jpg 2x" 
+        ../img/order/1280Rectangle2x.jpg 2x" 
         media="(min-width: 1280px)" />
         <source srcset="../img/order/768ImageBottom1x.jpg 1x,
-        ../img/order/768ImageBottom2x.jpg 2x" media="(min-width: 768px)" />
-        <source srcset="../img/order/320ImageBottom1x.jpg 1x,
-        ../img/order/320ImageBottom2x.jpg 2x" media="(min-width: 320px)" />
-        <img src="../img/order/768ImageBottom1x.jpg" alt="national costume" width="768" class="order-image" />
+        ../img/order/768ImageBottom1x.jpg 2x" media="(min-width: 768px)  and (max-width: 1279px)" />
+        <img src="../img/order/768ImageBottom1x.jpg" alt="national costume" class="order-image" />
     </picture>
     </div>
     <div class="order-ornament">
     </div>
-</div>
+    </div>    
 </section>
