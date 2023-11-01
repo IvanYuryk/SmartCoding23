@@ -68,11 +68,11 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding-right: 32px;
+    padding-left: 32px;
   }
   .testimonials {
     padding-bottom: 100px;
-    padding-right: 32px;
-    padding-left: 32px;
   }
 
   .testimonials-list {
@@ -95,12 +95,12 @@
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .testimonials {
     padding-bottom: 150px;
-    padding-left: 100px;
-    padding-right: 100px;
   }
 
   .testimonials-list {
