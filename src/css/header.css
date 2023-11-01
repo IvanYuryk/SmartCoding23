@@ -76,20 +76,21 @@ align-items: center;
 .mob-menu{
 position: fixed;
 top: 0;
-left: 50%;
-transform: translate(-50%, 0);
-z-index: 1;
+right: 0;
+z-index: 2;
 width: 274px;
-height: 100vh;
+height: 100%;
 background-color: #ECD979;
 background-image:url(../img/header/elements.png);
 background-repeat: no-repeat;
 background-position: bottom;
 background-size: auto;
 padding: 20px;
-opacity: 0;
-visibility: hidden;
-pointer-events: auto;
+transform: translate(100%);
+}
+
+.mob-menu.is-open{
+transform: translate(0%);
 }
     
 .is-open{
@@ -152,7 +153,7 @@ text-transform: uppercase;
 @media screen and (min-width: 768px){
 
 .header{
-padding-bottom: 80px;
+padding-bottom: 106px;
 }
 
 .header .container {
