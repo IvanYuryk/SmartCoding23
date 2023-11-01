@@ -43,7 +43,7 @@
 .footer-anchor-link {
   color: var(--white, #fcf9f9);
   font-size: 14px;
-  line-height: 18px; /* 128.571% */
+  line-height: 1.29; 
   text-transform: uppercase;
   text-decoration: none;
   font-family: Manrope;
@@ -61,7 +61,7 @@
   font-size: 44px;
   font-weight: 400;
   line-height: 1.22;
-  letter-spacing: -1.32px;
+  letter-spacing: -0.03em;
   font-family: Manrope;
   margin: 0;
 }
@@ -72,7 +72,7 @@
   font-size: 44px;
   font-weight: 400;
   line-height: 54px;
-  letter-spacing: -1.32px;
+  letter-spacing: -0.03em;
   margin: 0;
 }
 
@@ -120,13 +120,13 @@
   .footer-tagline {
     font-size: 54px;
     line-height: 1.18;
-    letter-spacing: -1.62px;
+    letter-spacing: -0.03em;
   }
 
   .footer-tagline-color {
     font-size: 54px;
     line-height: 1.18;
-    letter-spacing: -1.62px;
+    letter-spacing: -0.03em;
   }
 }
 
@@ -162,14 +162,14 @@
 
   .footer-tagline {
     font-size: 64px;
-    line-height: 1.15; /* 115.625% */
-    letter-spacing: -1.92px;
+    line-height: 1.16; 
+    letter-spacing: -0.03em;
   }
 
   .footer-tagline-color {
     font-size: 64px;
     line-height: 1.15;
-    letter-spacing: -1.92px;
+    letter-spacing: -0.03em;
   }
 }
 
