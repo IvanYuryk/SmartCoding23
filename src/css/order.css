@@ -6,7 +6,8 @@
   flex-direction: column;
   padding-top: 630px;
   padding-bottom: 81px;
-  background-image: url(./img/order/320Image1x.png);
+  background-image: url(../img/order/320Image1x.png);
+
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 375px 550px;
@@ -14,7 +15,8 @@
 
 @media (min-resoluton: 192dpi) {
   .section-order .container {
-    background-image: url(./img/order/320Image2x.png);
+   background-image: url(../img/order/320Image2x.png);
+
   }
 }
 
@@ -166,8 +168,8 @@ input[type='email'] {
     padding-right: 32px;
     padding-top: 876px;
     padding-bottom: 179px;
-    background-image: url(./img/order/768ImageTop1x.png),
-      url(./img/order/768ornamentOrder1x.png);
+    background-image: url(../img/order/768ImageTop1x.png),
+      url(../img/order/768ornamentOrder1x.png);
     background-repeat: no-repeat, no-repeat;
     background-position: top center, left bottom 100px;
     background-size: 768px 776px, 323px 484px;
@@ -175,8 +177,8 @@ input[type='email'] {
 
   @media (min-resoluton: 192dpi) {
     .section-order .container {
-      background: url(./img/order/768ImageTop2x.png),
-        url(./img/order/768ornamentOrder2x.png);
+      background: url(../img/order/768ImageTop2x.png),
+        url(../img/order/768ornamentOrder2x.png);
     }
   }
 
@@ -233,8 +235,8 @@ input[type='email'] {
     padding-right: 100px;
     padding-top: 926px;
     padding-bottom: 150px;
-    background-image: url(./img/order/1280ImageTop1x.png),
-      url(./img/order/1280ornamentOrder1x.png);
+    background-image: url(../img/order/1280ImageTop1x.png),
+      url(../img/order/1280ornamentOrder1x.png);
     background-repeat: no-repeat, no-repeat;
     background-position: top center, left bottom 150px;
     background-size: 1282px 776px, 325px 484px;
@@ -242,8 +244,8 @@ input[type='email'] {
 
   @media (min-resoluton: 192dpi) {
     .section-order .container {
-      background: url(./img/order/1280ImageTop2x.png),
-        url(./img/order/1280ornamentOrder2x.png);
+      background: url(../img/order/1280ImageTop2x.png),
+        url(../img/order/1280ornamentOrder2x.png);
     }
   }
 
