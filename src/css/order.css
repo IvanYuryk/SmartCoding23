@@ -95,6 +95,7 @@ input[type='email'] {
 }
 
 .modal-textarea {
+  resize: none;
   font-family: Manrope;
   font-size: 16px;
   font-weight: 400;
