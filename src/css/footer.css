@@ -1,33 +1,31 @@
 .footer {
-  background: #1c2225;
-  background-image: url(../img/footer/320ornamentFooter1x.png);
-  background-repeat: no-repeat;
-  background-position: 0% 100%;
-  width: 100%;
-  height: 648px;
-  margin: 0;
-  padding: 0;
+  padding-top: 40px;
   border-top: 1px solid rgba(252, 249, 249, 0.10);
 }
 
+.footer .container {
+  padding-bottom: 292px;
+  background-image: url(../img/footer/320ornamentFooter1x.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 375px 212px; 
+}
+
 @media screen and (min-resolution: 192dpi) {
-  .footer {
+  .footer .container {
     background-image: url(../img/footer/320ornamentFooter2x.png);
   }
 }
 
-.footer-container.container {
-  padding-left: 20px;
-  padding-top: 40px;
-}
-
 .footer-list-container {
-  padding-bottom: 40px;
-  margin: 0;
-  height: 61px;
+  
 }
 
 .footer-anchor-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 25px;
+  
   width: 100%;
   list-style: none;
   padding: 0;
@@ -36,7 +34,7 @@
   column-count: 2;
 }
 
-.footer-anchor-item {
+/* .footer-anchor-item {
   margin-bottom: 25px;
 }
 
@@ -83,15 +81,16 @@
     background-image: url(../img/footer/768ornamentFooter1x.png);
     background-repeat: no-repeat;
     background-position: 100% 0%;
+    background-size: 370px 174px;
   }
 
   @media screen and (min-resolution: 192dpi) {
     .footer {
       background-image: url(../img/footer/768ornamentFooter2x.png);
     }
-  }
+  } */
 
-  .footer-container.container {
+  /* .footer-container.container {
     padding-left: 32px;
   }
 
@@ -121,9 +120,9 @@
     font-size: 54px;
     line-height: 1.18;
     letter-spacing: -0.03em;
-  }
+  } */
 
-  .footer-tagline-color {
+  /* .footer-tagline-color {
     font-size: 54px;
     line-height: 1.18;
     letter-spacing: -0.03em;
@@ -144,8 +143,8 @@
     .footer {
       background-image: url(../img/footer/1280ornamentFooter2x.png);
     }
-  }
-
+  } */
+/* 
   .footer-container.container {
     padding-left: 100px;
   }
@@ -163,10 +162,10 @@
   .footer-tagline {
     font-size: 64px;
     line-height: 1.16; 
-    letter-spacing: -0.03em;
-  }
+    letter-spacing: -0.03em; 
+  }*/
 
-  .footer-tagline-color {
+  /* .footer-tagline-color {
     font-size: 64px;
     line-height: 1.15;
     letter-spacing: -0.03em;
@@ -187,4 +186,4 @@
       background-image: url(../img/footer/1440ornamentFooter2x.png);
     }
   }
-}
+} */
