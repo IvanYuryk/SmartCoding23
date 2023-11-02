@@ -1,6 +1,6 @@
 .footer {
   background: #1c2225;
-  background-image: url(../img/footer/320ornamentFooter1x.png);
+  background-image: url(../img/footer/foot-orn-mob-1x.png);
   background-repeat: no-repeat;
   background-position: 0% 100%;
   width: 100%;
@@ -12,7 +12,8 @@
 
 @media screen and (min-resolution: 192dpi) {
   .footer {
-    background-image: url(../img/footer/320ornamentFooter2x.png);
+    background-image: url(../img/footer/foot-orn-mob-2x.png);
+    background-size: 366px 188px;
   }
 }
 
@@ -80,14 +81,15 @@
   .footer {
     max-width: 768px;
     max-height: 370px;
-    background-image: url(../img/footer/768ornamentFooter1x.png);
+    background-image: url(../img/footer/foot-orn-tab-1x.png);
     background-repeat: no-repeat;
     background-position: 100% 0%;
   }
 
   @media screen and (min-resolution: 192dpi) {
     .footer {
-      background-image: url(../img/footer/768ornamentFooter2x.png);
+      background-image: url(../img/footer/foot-orn-tab-2x.png);
+      background-size: 156px 344px;
     }
   }
 
@@ -135,14 +137,16 @@
     max-width: 1280px;
     max-height: 363px;
     flex-shrink: 0;
-    background-image: url(../img/footer/1280ornamentFooter1x.png);
+    background-image: url(../img/footer/foot-orn-desk-1x.png);
     background-repeat: no-repeat;
     background-position: 944px 0;
+    
   }
 
   @media screen and (min-resolution: 192dpi) {
     .footer {
-      background-image: url(../img/footer/1280ornamentFooter2x.png);
+      background-image: url(../img/footer/foot-orn-desk-2x.png);
+      background-size: 316px 340px;
     }
   }
 
@@ -185,6 +189,7 @@
   @media screen and (min-resolution: 192dpi) {
     .footer {
       background-image: url(../img/footer/1440ornamentFooter2x.png);
+      background-size: 464px 340px;
     }
   }
 }
