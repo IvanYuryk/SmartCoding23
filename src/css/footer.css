@@ -7,14 +7,7 @@
   height: 648px;
   margin: 0;
   padding: 0;
-  border-top: 1px solid rgba(252, 249, 249, 0.10);
-}
-
-@media screen and (min-resolution: 192dpi) {
-  .footer {
-    background-image: url(../img/footer/foot-orn-mob-2x.png);
-    background-size: 366px 188px;
-  }
+  border-top: 1px solid rgba(252, 249, 249, 0.1);
 }
 
 .footer-container.container {
@@ -37,6 +30,8 @@
   column-count: 2;
 }
 
+
+
 .footer-anchor-item {
   margin-bottom: 25px;
 }
@@ -44,10 +39,14 @@
 .footer-anchor-link {
   color: var(--white, #fcf9f9);
   font-size: 14px;
-  line-height: 1.29; 
+  line-height: 1.29;
   text-transform: uppercase;
   text-decoration: none;
   font-family: Manrope;
+}
+
+.footer-anchor-link.about-us-link:hover {
+  color: #ECD979;
 }
 
 .footer-tagline-container {
@@ -84,13 +83,6 @@
     background-image: url(../img/footer/foot-orn-tab-1x.png);
     background-repeat: no-repeat;
     background-position: 100% 0%;
-  }
-
-  @media screen and (min-resolution: 192dpi) {
-    .footer {
-      background-image: url(../img/footer/foot-orn-tab-2x.png);
-      background-size: 156px 344px;
-    }
   }
 
   .footer-container.container {
@@ -139,15 +131,6 @@
     flex-shrink: 0;
     background-image: url(../img/footer/foot-orn-desk-1x.png);
     background-repeat: no-repeat;
-    background-position: 944px 0;
-    
-  }
-
-  @media screen and (min-resolution: 192dpi) {
-    .footer {
-      background-image: url(../img/footer/foot-orn-desk-2x.png);
-      background-size: 316px 340px;
-    }
   }
 
   .footer-container.container {
@@ -166,7 +149,7 @@
 
   .footer-tagline {
     font-size: 64px;
-    line-height: 1.16; 
+    line-height: 1.15; 
     letter-spacing: -0.03em;
   }
 
@@ -177,19 +160,3 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .footer {
-    max-width: 1440px;
-    max-height: 370px;
-    background-image: url(../img/footer/1440ornamentFooter1x.png);
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
-  }
-
-  @media screen and (min-resolution: 192dpi) {
-    .footer {
-      background-image: url(../img/footer/1440ornamentFooter2x.png);
-      background-size: 464px 340px;
-    }
-  }
-}
