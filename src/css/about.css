@@ -4,12 +4,10 @@
     background-repeat: no-repeat;
     background-position: right 0px bottom 0px;
     background-size: 250px 404px;
+    padding-bottom: 80px;
 }
 
 
-.about-container {
-padding-bottom: 80px;
-}
 
 .about-title {
     color: #FCF9F9;
@@ -43,9 +41,11 @@ border-radius: 4px;
     padding-bottom: 100px;
 }
 
+
 .about-us .container{
     background-image: url(../img/about.img/elements-tab.png);
 background-size: 369px 484px;
+padding-bottom: 100px;
 }
 
 .about-us-container {
@@ -64,7 +64,6 @@ background-size: 369px 484px;
    font-size: 16px;
    line-height: normal;
    letter-spacing: -0.04em;
-
 }
 
 .about-img{
@@ -78,13 +77,15 @@ background-size: 369px 484px;
     .about-container {
         max-width: 1080px;
         display: flex;
-        padding-left: 100px ;
-        padding-right: 100px;
-        padding-bottom: 150px;
+        padding-left: 100px;
+        padding-right: 100px; 
     }
+
+    
     .about-us .container{
         background-image: url(../img/about.img/elements-desk.png);
         background-size: 385px 484px;
+        padding-bottom: 150px;
     }
 
 .about-us-container {
@@ -102,3 +103,4 @@ transform: translateY(5%);
 }
 
 }
+
