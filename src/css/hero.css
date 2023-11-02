@@ -162,6 +162,11 @@
     top: 14px;
 }
 
+/* Hero button */
+.order-btn {
+    margin-bottom: 0px;
+}
+
 .section-hero .container {
     display: flex;
     background-image: url(../img/hero/hero_ukraine_desk@1x.png);
